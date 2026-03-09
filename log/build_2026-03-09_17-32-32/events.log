@@ -1,0 +1,129 @@
+[0.000000] (-) TimerEvent: {}
+[0.000783] (robofest) JobQueued: {'identifier': 'robofest', 'dependencies': OrderedDict()}
+[0.001071] (robofest) JobStarted: {'identifier': 'robofest'}
+[0.007684] (robofest) JobProgress: {'identifier': 'robofest', 'progress': 'cmake'}
+[0.008309] (robofest) Command: {'cmd': ['/usr/bin/cmake', '/home/atharv/robofest_ws/src/robofest', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/atharv/robofest_ws/install/robofest'], 'cwd': '/home/atharv/robofest_ws/build/robofest', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'atharv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atharv'), ('OLDPWD', '/home/atharv/robofest_ws'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MAC_HEADPHONES', '14:06:A7:C3:12:2F'), ('SYSTEMD_EXEC_PID', '2810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atharv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atharv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/atharv/.cargo/bin:/home/atharv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/OMEN:@/tmp/.ICE-unix/2607,unix/OMEN:/tmp/.ICE-unix/2607'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/326309c5_47c8_4e0c_a419_44ba0b2ab2e4'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRTPL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/atharv/robofest_ws/build/robofest'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/home/atharv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/usr/include:/usr/include:/usr/include:/usr/include:/usr/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.069084] (robofest) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099701] (-) TimerEvent: {}
+[0.132338] (robofest) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.140460] (robofest) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199792] (-) TimerEvent: {}
+[0.213418] (robofest) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.225094] (robofest) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.225448] (robofest) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.226010] (robofest) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.229808] (robofest) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.299912] (-) TimerEvent: {}
+[0.317711] (robofest) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.330890] (robofest) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.331165] (robofest) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.331780] (robofest) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.334006] (robofest) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.399994] (-) TimerEvent: {}
+[0.500253] (-) TimerEvent: {}
+[0.529151] (robofest) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.600345] (-) TimerEvent: {}
+[0.609808] (robofest) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.634151] (robofest) StdoutLine: {'line': b'-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.686493] (robofest) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.691409] (robofest) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.700442] (-) TimerEvent: {}
+[0.700960] (robofest) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.717906] (robofest) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.740428] (robofest) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.791940] (robofest) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.794430] (robofest) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.800479] (-) TimerEvent: {}
+[0.886938] (robofest) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.900560] (-) TimerEvent: {}
+[0.920729] (robofest) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.973277] (robofest) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.981863] (robofest) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.000684] (-) TimerEvent: {}
+[1.059132] (robofest) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.059682] (robofest) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.100811] (-) TimerEvent: {}
+[1.136734] (robofest) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.138102] (robofest) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.200924] (-) TimerEvent: {}
+[1.301267] (-) TimerEvent: {}
+[1.401563] (-) TimerEvent: {}
+[1.466034] (robofest) StdoutLine: {'line': b'-- Found OpenMP_C: -fopenmp (found version "4.5") \n'}
+[1.501665] (-) TimerEvent: {}
+[1.560384] (robofest) StdoutLine: {'line': b'-- Found OpenMP_CXX: -fopenmp (found version "4.5") \n'}
+[1.560660] (robofest) StdoutLine: {'line': b'-- Found OpenMP: TRUE (found version "4.5")  \n'}
+[1.601740] (-) TimerEvent: {}
+[1.613413] (robofest) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.619536] (robofest) StdoutLine: {'line': b'-- Generating done\n'}
+[1.621859] (robofest) StdoutLine: {'line': b'-- Build files have been written to: /home/atharv/robofest_ws/build/robofest\n'}
+[1.629200] (robofest) CommandEnded: {'returncode': 0}
+[1.629662] (robofest) JobProgress: {'identifier': 'robofest', 'progress': 'build'}
+[1.630122] (robofest) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/atharv/robofest_ws/build/robofest', '--', '-j12', '-l12'], 'cwd': '/home/atharv/robofest_ws/build/robofest', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'atharv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atharv'), ('OLDPWD', '/home/atharv/robofest_ws'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MAC_HEADPHONES', '14:06:A7:C3:12:2F'), ('SYSTEMD_EXEC_PID', '2810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atharv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atharv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/atharv/.cargo/bin:/home/atharv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/OMEN:@/tmp/.ICE-unix/2607,unix/OMEN:/tmp/.ICE-unix/2607'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/326309c5_47c8_4e0c_a419_44ba0b2ab2e4'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRTPL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/atharv/robofest_ws/build/robofest'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/home/atharv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/usr/include:/usr/include:/usr/include:/usr/include:/usr/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.664800] (robofest) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/mine_detector.dir/src/port.cpp.o\x1b[0m\n'}
+[1.701829] (-) TimerEvent: {}
+[1.802115] (-) TimerEvent: {}
+[1.902339] (-) TimerEvent: {}
+[2.002555] (-) TimerEvent: {}
+[2.102764] (-) TimerEvent: {}
+[2.202973] (-) TimerEvent: {}
+[2.303206] (-) TimerEvent: {}
+[2.403447] (-) TimerEvent: {}
+[2.503662] (-) TimerEvent: {}
+[2.603876] (-) TimerEvent: {}
+[2.704089] (-) TimerEvent: {}
+[2.804328] (-) TimerEvent: {}
+[2.904580] (-) TimerEvent: {}
+[3.004789] (-) TimerEvent: {}
+[3.105000] (-) TimerEvent: {}
+[3.205212] (-) TimerEvent: {}
+[3.305460] (-) TimerEvent: {}
+[3.405671] (-) TimerEvent: {}
+[3.505914] (-) TimerEvent: {}
+[3.606154] (-) TimerEvent: {}
+[3.706370] (-) TimerEvent: {}
+[3.806651] (-) TimerEvent: {}
+[3.906861] (-) TimerEvent: {}
+[4.007078] (-) TimerEvent: {}
+[4.107294] (-) TimerEvent: {}
+[4.207538] (-) TimerEvent: {}
+[4.307754] (-) TimerEvent: {}
+[4.408041] (-) TimerEvent: {}
+[4.508251] (-) TimerEvent: {}
+[4.608492] (-) TimerEvent: {}
+[4.708741] (-) TimerEvent: {}
+[4.808969] (-) TimerEvent: {}
+[4.909202] (-) TimerEvent: {}
+[5.009412] (-) TimerEvent: {}
+[5.109621] (-) TimerEvent: {}
+[5.209824] (-) TimerEvent: {}
+[5.310032] (-) TimerEvent: {}
+[5.410245] (-) TimerEvent: {}
+[5.415277] (robofest) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable mine_detector\x1b[0m\n'}
+[5.510333] (-) TimerEvent: {}
+[5.587964] (robofest) StdoutLine: {'line': b'[100%] Built target mine_detector\n'}
+[5.596182] (robofest) CommandEnded: {'returncode': 0}
+[5.596639] (robofest) JobProgress: {'identifier': 'robofest', 'progress': 'install'}
+[5.602302] (robofest) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/atharv/robofest_ws/build/robofest'], 'cwd': '/home/atharv/robofest_ws/build/robofest', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_IN:en'), ('USER', 'atharv'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/atharv'), ('OLDPWD', '/home/atharv/robofest_ws'), ('DESKTOP_SESSION', 'ubuntu-wayland'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('MAC_HEADPHONES', '14:06:A7:C3:12:2F'), ('SYSTEMD_EXEC_PID', '2810'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'atharv'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'atharv'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/atharv/.cargo/bin:/home/atharv/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/:/opt/xtensa-esp-elf/bin/'), ('SESSION_MANAGER', 'local/OMEN:@/tmp/.ICE-unix/2607,unix/OMEN:/tmp/.ICE-unix/2607'), ('XDG_MENU_PREFIX', 'gnome-'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/326309c5_47c8_4e0c_a419_44ba0b2ab2e4'), ('GNOME_SETUP_DISPLAY', ':2'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-wayland'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.JRTPL3'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.182'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu-wayland'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/atharv/robofest_ws/build/robofest'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-wayland:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-wayland:/home/atharv/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('CPATH', '/usr/include:/usr/include:/usr/include:/usr/include:/usr/include:'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.607250] (robofest) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.607631] (robofest) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.607852] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/lib/robofest/mine_detector\n'}
+[5.610391] (-) TimerEvent: {}
+[5.613302] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/package_run_dependencies/robofest\n'}
+[5.618864] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/parent_prefix_path/robofest\n'}
+[5.624392] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.sh\n'}
+[5.629792] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.dsv\n'}
+[5.635646] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.sh\n'}
+[5.641706] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.dsv\n'}
+[5.647168] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.bash\n'}
+[5.652783] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.sh\n'}
+[5.658152] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.zsh\n'}
+[5.663965] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.dsv\n'}
+[5.671064] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/package.dsv\n'}
+[5.680533] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/packages/robofest\n'}
+[5.689324] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig.cmake\n'}
+[5.698001] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig-version.cmake\n'}
+[5.706619] (robofest) StdoutLine: {'line': b'-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/package.xml\n'}
+[5.710439] (-) TimerEvent: {}
+[5.718214] (robofest) CommandEnded: {'returncode': 0}
+[5.737956] (robofest) JobEnded: {'identifier': 'robofest', 'rc': 0}
+[5.738722] (-) EventReactorShutdown: {}

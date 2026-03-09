@@ -1,0 +1,4 @@
+source;share/robofest/local_setup.bash
+source;share/robofest/local_setup.dsv
+source;share/robofest/local_setup.sh
+source;share/robofest/local_setup.zsh

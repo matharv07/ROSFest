@@ -1,0 +1,16 @@
+/home/atharv/robofest_ws/install/robofest/lib/robofest/mine_detector
+/home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/package_run_dependencies/robofest
+/home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/parent_prefix_path/robofest
+/home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.sh
+/home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.dsv
+/home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.sh
+/home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.dsv
+/home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.bash
+/home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.sh
+/home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.zsh
+/home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.dsv
+/home/atharv/robofest_ws/install/robofest/share/robofest/package.dsv
+/home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/packages/robofest
+/home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig.cmake
+/home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig-version.cmake
+/home/atharv/robofest_ws/install/robofest/share/robofest/package.xml

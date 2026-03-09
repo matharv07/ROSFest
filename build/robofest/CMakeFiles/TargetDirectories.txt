@@ -1,0 +1,10 @@
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/uninstall.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/robofest_uninstall.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/mine_detector.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/test.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/edit_cache.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/rebuild_cache.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/list_install_components.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/install.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/install/local.dir
+/home/atharv/robofest_ws/build/robofest/CMakeFiles/install/strip.dir
