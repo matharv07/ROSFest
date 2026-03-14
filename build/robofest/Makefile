@@ -210,6 +210,43 @@ mine_detector/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/mine_detector.dir/build.make CMakeFiles/mine_detector.dir/build
 .PHONY : mine_detector/fast
 
+#=============================================================================
+# Target rules for targets named drone_node
+
+# Build rule for target.
+drone_node: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 drone_node
+.PHONY : drone_node
+
+# fast build rule for target.
+drone_node/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/build
+.PHONY : drone_node/fast
+
+src/dronenode.o: src/dronenode.cpp.o
+.PHONY : src/dronenode.o
+
+# target to build an object file
+src/dronenode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/src/dronenode.cpp.o
+.PHONY : src/dronenode.cpp.o
+
+src/dronenode.i: src/dronenode.cpp.i
+.PHONY : src/dronenode.i
+
+# target to preprocess a source file
+src/dronenode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/src/dronenode.cpp.i
+.PHONY : src/dronenode.cpp.i
+
+src/dronenode.s: src/dronenode.cpp.s
+.PHONY : src/dronenode.s
+
+# target to generate assembly for a file
+src/dronenode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/drone_node.dir/build.make CMakeFiles/drone_node.dir/src/dronenode.cpp.s
+.PHONY : src/dronenode.cpp.s
+
 src/port.o: src/port.cpp.o
 .PHONY : src/port.o
 
@@ -249,7 +286,11 @@ help:
 	@echo "... test"
 	@echo "... robofest_uninstall"
 	@echo "... uninstall"
+	@echo "... drone_node"
 	@echo "... mine_detector"
+	@echo "... src/dronenode.o"
+	@echo "... src/dronenode.i"
+	@echo "... src/dronenode.s"
 	@echo "... src/port.o"
 	@echo "... src/port.i"
 	@echo "... src/port.s"

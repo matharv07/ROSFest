@@ -1,0 +1,24 @@
+[35m[1mConsolidate compiler generated dependencies of target drone_node[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/dronenode.cpp.o[0m
+[ 75%] Built target mine_detector
+[100%] [32m[1mLinking CXX executable drone_node[0m
+[100%] Built target drone_node
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/lib/robofest/mine_detector
+-- Symlinking: /home/atharv/robofest_ws/install/robofest/lib/robofest/drone_node
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/package_run_dependencies/robofest
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/parent_prefix_path/robofest
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.sh
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.dsv
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.bash
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.sh
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.zsh
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.dsv
+-- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/package.dsv
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/packages/robofest
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig.cmake
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig-version.cmake
+-- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/package.xml

@@ -1,4 +1,5 @@
 /home/atharv/robofest_ws/install/robofest/lib/robofest/mine_detector
+/home/atharv/robofest_ws/install/robofest/lib/robofest/drone_node
 /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/package_run_dependencies/robofest
 /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/parent_prefix_path/robofest
 /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.sh

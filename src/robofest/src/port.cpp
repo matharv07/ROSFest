@@ -33,8 +33,8 @@ public:
         this->declare_parameter<double>("fs", 8e6);
         this->declare_parameter<int>("num_s", 131072);
         this->declare_parameter<double>("tone", 543e3);
-        this->declare_parameter<double>("cal_ref_dbfs", -14.4);
-        this->declare_parameter<double>("detect_thresh", 5.0);
+        this->declare_parameter<double>("cal_ref_dbfs", 1.8);
+        this->declare_parameter<double>("detect_thresh", 8.0);
         this->declare_parameter<int>("median_win", 100);
         this->declare_parameter<int>("baseline_min", 30);
 

@@ -1,0 +1,4 @@
+Invoking command in '/home/atharv/robofest_ws/build/robofest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharv/robofest_ws/build/robofest -- -j12 -l12
+Invoked command in '/home/atharv/robofest_ws/build/robofest' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharv/robofest_ws/build/robofest -- -j12 -l12
+Invoking command in '/home/atharv/robofest_ws/build/robofest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atharv/robofest_ws/build/robofest
+Invoked command in '/home/atharv/robofest_ws/build/robofest' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atharv/robofest_ws/build/robofest

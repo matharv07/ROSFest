@@ -318,6 +318,9 @@ message(STATUS "Execute custom install script")
 # install("TARGETS" "mine_detector" "DESTINATION" "lib/robofest")
 include("/home/atharv/robofest_ws/build/robofest/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install("TARGETS" "drone_node" "DESTINATION" "lib/robofest")
+include("/home/atharv/robofest_ws/build/robofest/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
+
 # install(FILES "/home/atharv/robofest_ws/build/robofest/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robofest" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 ament_cmake_symlink_install_files("/home/atharv/robofest_ws/src/robofest" FILES "/home/atharv/robofest_ws/build/robofest/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/robofest" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 

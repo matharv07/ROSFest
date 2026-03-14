@@ -1,0 +1,28 @@
+[0.012s] Invoking command in '/home/atharv/robofest_ws/build/robofest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharv/robofest_ws/build/robofest -- -j12 -l12
+[0.053s] [35m[1mConsolidate compiler generated dependencies of target drone_node[0m
+[0.063s] [ 25%] [32mBuilding CXX object CMakeFiles/drone_node.dir/src/dronenode.cpp.o[0m
+[0.068s] [ 75%] Built target mine_detector
+[7.996s] [100%] [32m[1mLinking CXX executable drone_node[0m
+[8.405s] [100%] Built target drone_node
+[8.417s] Invoked command in '/home/atharv/robofest_ws/build/robofest' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/atharv/robofest_ws/build/robofest -- -j12 -l12
+[8.427s] Invoking command in '/home/atharv/robofest_ws/build/robofest': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atharv/robofest_ws/build/robofest
+[8.435s] -- Install configuration: ""
+[8.436s] -- Execute custom install script
+[8.436s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/lib/robofest/mine_detector
+[8.437s] -- Symlinking: /home/atharv/robofest_ws/install/robofest/lib/robofest/drone_node
+[8.446s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/package_run_dependencies/robofest
+[8.446s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/parent_prefix_path/robofest
+[8.446s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.sh
+[8.446s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/ament_prefix_path.dsv
+[8.446s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.sh
+[8.447s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/environment/path.dsv
+[8.447s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.bash
+[8.447s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.sh
+[8.447s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.zsh
+[8.447s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/local_setup.dsv
+[8.447s] -- Symlinking: /home/atharv/robofest_ws/install/robofest/share/robofest/package.dsv
+[8.457s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/ament_index/resource_index/packages/robofest
+[8.458s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig.cmake
+[8.458s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/cmake/robofestConfig-version.cmake
+[8.458s] -- Up-to-date symlink: /home/atharv/robofest_ws/install/robofest/share/robofest/package.xml
+[8.460s] Invoked command in '/home/atharv/robofest_ws/build/robofest' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/atharv/robofest_ws/build/robofest

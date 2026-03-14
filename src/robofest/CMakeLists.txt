@@ -26,9 +26,13 @@ endif()
 
 # ─── Build the Node ───
 add_executable(mine_detector src/port.cpp)
+add_executable(drone_node src/dronenode.cpp)
 
 # Target Include Directories
 target_include_directories(mine_detector PUBLIC
+  $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
+  $<INSTALL_INTERFACE:include>)
+target_include_directories(drone_node PUBLIC
   $<BUILD_INTERFACE:${CMAKE_CURRENT_SOURCE_DIR}/include>
   $<INSTALL_INTERFACE:include>)
 
@@ -37,15 +41,25 @@ ament_target_dependencies(mine_detector
   rclcpp
   std_msgs
 )
+ament_target_dependencies(drone_node
+   rclcpp
+   std_msgs
+)
 
 # Link external hardware/optimization libraries
 target_link_libraries(mine_detector
   ${IIO_LIBRARY}
   OpenMP::OpenMP_CXX
 )
+target_link_libraries(drone_node
+  ${IIO_LIBRARY}
+  OpenMP::OpenMP_CXX
+)
 
 # ─── Installation ───
 install(TARGETS mine_detector
+  DESTINATION lib/${PROJECT_NAME})
+install(TARGETS drone_node
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()
